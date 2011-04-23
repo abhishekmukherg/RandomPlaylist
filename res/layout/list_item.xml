@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RPTheme.SongRow">
+	<TextView style="@style/RPTheme.SongRowText.Title" android:id="@+id/row_title" />
+	<TextView style="@style/RPTheme.SongRowText.Artist" android:id="@+id/row_artist" />
+</LinearLayout>

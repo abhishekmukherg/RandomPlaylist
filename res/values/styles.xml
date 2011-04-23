@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RPTheme" parent="@android:style/Theme" />
+    <style name="RPTheme.ListWrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="RPTheme.ContentList" parent="@android:style/Widget.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textFilterEnabled">false</item>
+    </style>
+
+    <style name="RPTheme.EmptyList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="RPTheme.SongRow">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="RPTheme.SongRowText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="RPTheme.SongRowText.Title" />
+    <style name="RPTheme.SongRowText.Artist" />
+</resources>

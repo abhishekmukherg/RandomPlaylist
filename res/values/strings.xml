@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RandomPlaylist!</string>
+    <string name="app_name">Random Playlist</string>
+    <string name="no_songs">No songs available</string>
+</resources>
